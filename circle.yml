@@ -6,6 +6,7 @@ dependencies:
     - gem install ffi
     - gem install websocket
     - gem install bundler --pre
+    - gem install parseconfig 
     - gem install minitest -v '4.7.5'
 
   override:
