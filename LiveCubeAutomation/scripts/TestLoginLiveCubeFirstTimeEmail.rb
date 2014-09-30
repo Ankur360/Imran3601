@@ -51,6 +51,7 @@ describe "Login with Email Account at very first time" do
       #verify that user logged into LiveCube application
       expect(logout).to eql(true)
 
+      puts "Test Login Livecube with email at firt time method completed successfully"
 
     end
   end

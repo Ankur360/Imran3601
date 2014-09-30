@@ -56,6 +56,8 @@ describe "User can provide the post message " do
       postMsg= conversion.providePost(url,postMessage)
 
       expect(postMsg).to include("This is my fist post of automation")
+
+      puts "Test post message method completed successfully"
       CreateLog.new().Log("login to the application")
     end
   end

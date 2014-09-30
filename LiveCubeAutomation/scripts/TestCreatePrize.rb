@@ -64,6 +64,7 @@ describe "Scenario test create prize" do
       result= editlivecubemeeting.verifyPrizeCreated(prize)
       expect(result).to eql(true)
 
+      puts "Test create prize method completed successfully"
     rescue
       #update and generate report for test
       raise

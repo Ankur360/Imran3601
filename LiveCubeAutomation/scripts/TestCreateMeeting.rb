@@ -56,7 +56,7 @@ describe "Scenario test create meeting" do
       message= dashboard.verifyMeetingCreated()
       expect(message).to include("Meeting was successfully created.")
 
-      puts "Test Meeting creation completed"
+      puts "Test create Meeting method completed successfully"
 
     rescue
       CreateLog.new().Log("open application url")

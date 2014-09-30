@@ -44,12 +44,21 @@ describe "Scenario test verify user activity " do
       #Login to the application
       CreateLog.new().Log("open application url")
       #Login to the application
-      loginEmail.loginToApplication(@liveEmail,@liveDesiredPass)
-      #Add Session to the Application
-      userActivity.verifyActivity(url)
+      logout=loginEmail.loginToApplication(@liveEmail,@liveDesiredPass)
+      #verify that logout button is shown after logged into live cube application
+      expect(logout).to eql(true)
 
+      #verify the user activities
+      title, postMsg= userActivity.verifyActivity(url)
+      #verify user activity title
+      expect(title).to include("Activity")
 
-      CreateLog.new().Log("login to the application")
+      #verify post at activity
+      expect(postMsg).to include("This is my fist post of automation")
+
+      puts "Test verify user activity method completed successfully"
+
+     CreateLog.new().Log("login to the application")
     end
   end
 end

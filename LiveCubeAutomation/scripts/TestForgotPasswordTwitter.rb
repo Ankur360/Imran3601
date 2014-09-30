@@ -48,7 +48,7 @@ describe "Test Scenario verify Forgot password functionality" do
       #verify that confirmation message should be shown after reset the password
       expect(confirmMsg).to include("We've sent password reset instructions to your email address.")
 
-
+      puts "Test Forgot password method completed successfully"
     end
   end
 end

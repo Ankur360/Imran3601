@@ -4,7 +4,7 @@ require "json"
 require "selenium-webdriver"
 require "rspec"
 
-describe "User can add and join the session" do
+describe "Scenario test more>>information page " do
 
 
   before(:each) do
@@ -18,19 +18,19 @@ describe "User can add and join the session" do
     @liveDesiredPass=cc.getApplication('liveCubePass')
     @driver.manage.timeouts.implicit_wait = 30
     @verification_errors = []
-   # @driver.manage.window.maximize
-    CreateLog.new().LogStartExecution("execution started of Test Class user add and join session")
+    # @driver.manage.window.maximize
+    CreateLog.new().LogStartExecution("execution started of Test Class scenarios verify more>>information page")
   end
 
-    after(:each) do
-      lcHeader = LCubeHeader.new(@driver)
-      lcHeader.liveCubeLogout()
-      @driver.quit
-      CreateLog.new().LogEndExecution("execution end of Test user add and join session")
+  after(:each) do
+    lcHeader = LCubeHeader.new(@driver)
+    lcHeader.liveCubeLogout()
+    @driver.quit
+    CreateLog.new().LogEndExecution("execution end of Test Test Class scenarios verify more>>information page")
 
   end
 
-  it "Verify that user can add and join the session" do
+  it "Verify that more>>information page" do
 
     begin
 
@@ -40,24 +40,22 @@ describe "User can add and join the session" do
       url= driverhelper.readAttendeesUrl()
       @driver.get(url)
 
-
       #object creation
-      addjoinsession = AddJoinSessionPage.new(@driver)
+      morePage= MorePage.new(@driver)
 
       #Login to the application
       CreateLog.new().Log("open application url")
       #Login to the application
-      logout= loginEmail.loginToApplication(@liveEmail,@liveDesiredPass)
+      logout=loginEmail.loginToApplication(@liveEmail,@liveDesiredPass)
       #verify that logout button is shown after logged into live cube application
       expect(logout).to eql(true)
 
-      #Add Session to the Application
-      sessionName= addjoinsession.addSession()
-      #verify that session name
-      expect(sessionName).to include("Automation Session")
+      #verify the information page
+      meetingExist= morePage.verifyInformationScreen()
 
+      expect(meetingExist).to include("Automation Meeting")
 
-      puts "Test add session method completed successfully"
+      puts "Test verify information method completed successfully"
       CreateLog.new().Log("login to the application")
     end
   end

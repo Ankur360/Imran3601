@@ -65,6 +65,7 @@ describe "Scenario test verify projected view screen" do
       expect(currentRankingBox).to eql(true)
       expect(totalPointEarner).to eql(true)
 
+      puts "Test Projected view method completed successfully"
       rescue
       CreateLog.new().Log("open application url")
       raise

@@ -62,7 +62,7 @@ describe "Scenario test create team" do
       succesMsg=editLiveCube.verifyTeamCreated()
       expect(succesMsg).to include("Team was successfully created.")
 
-
+      puts "Test create team method completed successfully"
      rescue
       #update and generate report for test
      raise

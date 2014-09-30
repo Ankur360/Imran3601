@@ -61,7 +61,7 @@ describe "Scenario test verify survey" do
       successMsg= editlivecubemeeting.verifySurveyCreated()
       expect(successMsg).to include("Survey was successfully created.")
 
-
+      puts "Test create survey method completed successfully"
       rescue
       CreateLog.new().Log("open application url")
       raise

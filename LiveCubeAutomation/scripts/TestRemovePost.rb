@@ -4,7 +4,7 @@ require "json"
 require "selenium-webdriver"
 require "rspec"
 
-describe "User can repost and favorite" do
+describe "User can remove the post " do
 
 
   before(:each) do
@@ -14,23 +14,23 @@ describe "User can repost and favorite" do
     if browserType.eql?("ff")
       @driver = Selenium::WebDriver.for :firefox
     end
-    @liveCubeOtherEmail=cc.getApplication('liveCubeOtherEmail')
-    @liveCubeOtherPass=cc.getApplication('liveCubeOtherPass')
+    @liveEmail=cc.getApplication('liveCubeEmail')
+    @liveDesiredPass=cc.getApplication('liveCubePass')
     @driver.manage.timeouts.implicit_wait = 30
     @verification_errors = []
-   # @driver.manage.window.maximize
-    CreateLog.new().LogStartExecution("execution started of Test Class Repost and favorite")
+    # @driver.manage.window.maximize
+    CreateLog.new().LogStartExecution("execution started of Test Class user can remove the post")
   end
 
-    after(:each) do
-      lcHeader = LCubeHeader.new(@driver)
-      lcHeader.liveCubeLogout()
-      @driver.quit
-      CreateLog.new().LogEndExecution("execution end of Test Repost and Favorite")
+  after(:each) do
+    lcHeader = LCubeHeader.new(@driver)
+    lcHeader.liveCubeLogout()
+    @driver.quit
+    CreateLog.new().LogEndExecution("execution end of Test user cane remove the post")
 
   end
 
-  it "Verify that user can Repost and Favorite " do
+  it "Verify that user able to remove the post" do
 
     begin
 
@@ -46,20 +46,16 @@ describe "User can repost and favorite" do
       #Login to the application
       CreateLog.new().Log("open application url")
       #Login to the application
-      logout=loginEmail.loginToApplicationWithOtherUser(@liveCubeOtherEmail,@liveCubeOtherPass)
+      logout=loginEmail.loginToApplication(@liveEmail,@liveDesiredPass)
       #verify that logout button is shown after logged into live cube application
       expect(logout).to eql(true)
 
-      #provide repost with different user
-      repost= conversion.provideRePost()
-      expect(repost).to include("Reposted")
 
+      #verify that user ia able to remove the post
+      result= conversion.removePost()
+      expect(result).to eql(false)
 
-      #Do favourite with different user
-      favourite= conversion.provideFavorites()
-      expect(favourite).to include("Favorited")
-
-      puts "Test Repost & Favorite method completed successfully"
+      puts "Test remove post method completed successfully"
       CreateLog.new().Log("login to the application")
     end
   end

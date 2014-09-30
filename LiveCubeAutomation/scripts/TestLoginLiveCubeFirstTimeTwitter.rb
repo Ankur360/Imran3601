@@ -50,6 +50,7 @@ describe "Scenario test login with twitter account at very first time" do
       #verify that user logged into LiveCube application
       expect(logout).to eql(true)
 
+      puts "Test Login Livecube with twitter at firt time method completed successfully"
     end
   end
 end

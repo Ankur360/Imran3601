@@ -59,6 +59,8 @@ describe "Scenario test create speaker" do
       #verify that speaker created
       successMsg= dashboard.verifySpeakerCreated()
       expect(successMsg).to include("Speaker was successfully created.")
+
+      puts "Test create speaker method completed successfully"
   end    
   
 end

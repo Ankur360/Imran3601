@@ -4,7 +4,7 @@ require "json"
 require "selenium-webdriver"
 require "rspec"
 
-describe "User can apply Flag and Reply" do
+describe "Test Scenario Recent and Popular sorting " do
 
 
   before(:each) do
@@ -14,25 +14,24 @@ describe "User can apply Flag and Reply" do
     if browserType.eql?("ff")
       @driver = Selenium::WebDriver.for :firefox
     end
-    @liveCubeOtherEmail=cc.getApplication('liveCubeOtherEmail')
-    @liveCubeOtherPass=cc.getApplication('liveCubeOtherPass')
+    @liveEmail=cc.getApplication('liveCubeEmail')
+    @liveDesiredPass=cc.getApplication('liveCubePass')
     @driver.manage.timeouts.implicit_wait = 30
     @verification_errors = []
     # @driver.manage.window.maximize
-    CreateLog.new().LogStartExecution("execution started of Test Class Flag and Reply")
+    CreateLog.new().LogStartExecution("execution started of Test Recent and Popular sorting ")
   end
 
   after(:each) do
     lcHeader = LCubeHeader.new(@driver)
     lcHeader.liveCubeLogout()
     @driver.quit
-    CreateLog.new().LogEndExecution("execution end of Test Flag and Reply")
+    CreateLog.new().LogEndExecution("execution end of Test Recent and Popular sorting")
   end
 
-  it "Verify that user can apply Flag and Reply" do
+  it "Verify that user able to perform recent and popular sorting" do
 
     begin
-
       #open url
       loginEmail = LoginLiveCubeEmail.new(@driver)
       driverhelper=DriverHelper.new(@driver)
@@ -45,19 +44,25 @@ describe "User can apply Flag and Reply" do
       #Login to the application
       CreateLog.new().Log("open application url")
       #Login to the application
-      logout= loginEmail.loginToApplication(@liveCubeOtherEmail,@liveCubeOtherPass)
+      logout=loginEmail.loginToApplication(@liveEmail,@liveDesiredPass)
       #verify that logout button is shown after logged into live cube application
       expect(logout).to eql(true)
 
-      #verify that user able to perform Flag and Reply sction
-      flagText= conversion.testFlagAction()
-      expect(flagText).to include("Flagged")
+      #verfy the recent and popular sorting
+      postMessage= "This is my recent post message"
 
-      replyPost=conversion.testReplyAction(url)
-      expect(replyPost).to eql(true)
+      #verify that user able to provide post second time
+      conversion.provideSecondPost(url,postMessage)
 
-      puts "Test Flag & Reply method completed successfully"
 
+      #verify that user able to perform recent sorting
+      recentSort= conversion.recentSorting()
+      expect(recentSort).to include("This is my recent post message")
+
+      popularSort=conversion.popularSorting()
+      expect(popularSort).to include("This is my fist post of automation")
+
+      puts "Test recent & popular sorting method completed successfully"
       CreateLog.new().Log("login to the application")
     end
   end

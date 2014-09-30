@@ -47,7 +47,7 @@ describe "Login with Twitter Account" do
       #verify that logout button is shown after logged into live cube application
       expect(logout).to eql(true)
 
-
+      puts "Test Login livecube twitter method completed successfully"
 
     end
   end

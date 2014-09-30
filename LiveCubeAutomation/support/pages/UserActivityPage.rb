@@ -12,9 +12,10 @@ class UserActivityPage < SupportHelper
   def verifyActivity(url)
     clickOnShowMe()
     clickOnActivity()
-    verifyActivityTitle()
-    verifyPostedMessage()
+    title= verifyActivityTitle()
+    postMsg= verifyPostedMessage()
     refreshPage(url)
+    return [title, postMsg]
   end
 
 
@@ -36,13 +37,15 @@ class UserActivityPage < SupportHelper
   def verifyActivityTitle()
     el= @driver.find_element(:xpath, "//div[@class='bubble-top']/h2")
     activityTitle= el.text
-    assert_equal "Activity", activityTitle, "Title should be shown activity"
+    #assert_equal "Activity", activityTitle, "Title should be shown activity"
+    activityTitle
   end
 
   def verifyPostedMessage()
     el= @driver.find_element(:xpath, "//div[contains(text(),'This is my fist post of automation')]")
     postMessage= el.text
-    assert postMessage.include? "This is my fist post of automation"
+    #assert postMessage.include? "This is my fist post of automation"
+    postMessage
 
   end
 
@@ -57,7 +60,7 @@ class UserActivityPage < SupportHelper
     clickOnEditProfile()
     editUserInfo()
     clickOnSave()
-    verifyProfileUpdated()
+
   end
 
   def clickOnMe()
@@ -68,9 +71,9 @@ class UserActivityPage < SupportHelper
   def clickOnEditProfile()
     el= @driver.find_element(:xpath, "//a[contains(text(),'Edit Profile')]")
     el.click
-    wait = Selenium::WebDriver::Wait.new(:timeout => 10)
-    wait.until { @driver.find_element(:xpath => "//h2[text()='Update Center']").displayed? }
-    sleep(6)
+    #wait = Selenium::WebDriver::Wait.new(:timeout => 10)
+    #wait.until { @driver.find_element(:id => "attendee_name").displayed? }
+    sleep(5)
   end
 
   #edit name, title and company name
@@ -104,6 +107,8 @@ class UserActivityPage < SupportHelper
 
     comp= @driver.find_element(:class, "attendee-company").text
     #assert comp.include? "company360"
+
+    return[name, title,comp]
   end
 end
 

@@ -10,7 +10,7 @@ class PeoplePage < SupportHelper
     #verifies the attendees on people page
     def verifyAttendees()
       clickPeopleLink()
-      verifyAttendeesDisplayed()
+      attendees= verifyAttendeesDisplayed()
     end
 
     #click on people tab
@@ -24,7 +24,8 @@ class PeoplePage < SupportHelper
     #At attendees section verify that attendees are displayed
     def verifyAttendeesDisplayed()
     attendees= attendeesDisplayed()
-    assert_equal attendees, true, "In people screen attendees should be shown"
+    #assert_equal attendees, true, "In people screen attendees should be shown"
+    attendees
     end
 
     def attendeesDisplayed()
@@ -42,8 +43,9 @@ class PeoplePage < SupportHelper
     def verifySpeakers(url)
       clickPeopleLink()
       clickOnSpeakers()
-      verifySpeakersDisplayed()
+      speaker= verifySpeakersDisplayed()
       refreshPage(url)
+      speaker
     end
 
     #click on speaker tab at people>>speaker tab
@@ -58,6 +60,7 @@ class PeoplePage < SupportHelper
     def verifySpeakersDisplayed()
       speakers= speakersDisplayed()
       #assert_equal speakers, true, "In people>>speaker screen speakers should be shown"
+      speakers
     end
 
     def refreshPage(url)

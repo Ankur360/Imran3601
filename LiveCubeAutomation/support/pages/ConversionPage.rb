@@ -212,8 +212,8 @@ class ConversionPage < SupportHelper
       sleep(6)
      fav= verifyFavorited
       sleep(6)
-      verifyReposted()
-
+      #verifyReposted()
+      fav
     end
 
     #Click on favourite link
@@ -378,7 +378,8 @@ class ConversionPage < SupportHelper
     clickOnMoreLink()
     removePostByClickingRemoveLink()
     sleep(6)
-    verfiyPostRemoved()
+    result= verfiyPostRemoved()
+    result
 
   end
 
@@ -396,6 +397,7 @@ class ConversionPage < SupportHelper
   def verfiyPostRemoved()
     result= RemovedPostExist()
     #assert_equal result, false, "Post should be removed"
+    result
   end
 
   def RemovedPostExist()
@@ -420,7 +422,8 @@ class ConversionPage < SupportHelper
     #uploadPhoto()
     clickOnPost()
     #clickOnPostAndVerifySuccessMsg()
-    verifySecondPostDisplayed(url)
+    #verifySecondPostDisplayed(url)
+
   end
 
   #Post is displayed
@@ -431,9 +434,11 @@ class ConversionPage < SupportHelper
     wait = Selenium::WebDriver::Wait.new(:timeout => 10) # seconds
     element = wait.until { @driver.find_element(:id => "posts") }
 
-    el= @driver.find_element(:xpath, "//*[@id='posts']/li[2]/div[1]/div[2]/div[2]/p")
+    el= @driver.find_element(:xpath, "//*[@id='posts']/li[3]/div[1]/div[2]/div/p")
+
     postMsg= el.text
    # assert postMsg.include? "This is my recent post message"
+
   end
 
   #Verify that recent sorting is performed
@@ -441,7 +446,8 @@ class ConversionPage < SupportHelper
     clickOnSortingDropDown()
     selectRecentOption()
     sleep(5)
-    verifyRecentPost()
+    recentPost= verifyRecentPost()
+    recentPost
 
   end
 
@@ -465,9 +471,11 @@ class ConversionPage < SupportHelper
 
   #Verify that recent post is displayed at the top
   def verifyRecentPost()
-    el= @driver.find_element(:xpath, "//*[@id='posts']/li[2]/div[1]/div[2]/div[2]/p")
+    el= @driver.find_element(:xpath, "//*[@id='posts']/li[1]/div[1]/div[2]/div/p")
+
     recentPostMsg= el.text
     #assert recentPostMsg.include? "This is my recent post message"
+    recentPostMsg
   end
 
 #Verify that user can perform popular sorting
@@ -475,14 +483,17 @@ class ConversionPage < SupportHelper
     clickOnSortingDropDown()
     selectPopularOption()
     sleep(5)
-    verifyPopularPost()
+    popularSort= verifyPopularPost()
+    popularSort
   end
 
   #Verify that popular sorting is performed
   def verifyPopularPost()
-    el= @driver.find_element(:xpath, "//*[@id='posts']/li[1]/div[1]/div[2]/div[2]/p")
+    el= @driver.find_element(:xpath, "//*[@id='posts']/li[1]/div[1]/div[2]/div/p")
+
     popularPostMsg= el.text
     #assert popularPostMsg.include? "This is my fist post of automation"
+    popularPostMsg
   end
 
 end

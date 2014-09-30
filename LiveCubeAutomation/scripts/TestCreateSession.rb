@@ -52,7 +52,8 @@ describe "Scenario test create session" do
       #verify that even created successfuly
       successMsg= dashboard.verifyEventCreated()
       expect(successMsg).to include("Event was successfully created.")
-	  puts "Test create session method completed successfully"
+
+	    puts "Test create session method completed successfully"
      rescue
       #update and generate report for test
      raise

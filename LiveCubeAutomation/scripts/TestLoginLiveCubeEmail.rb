@@ -43,8 +43,7 @@ describe "Login with Email Account" do
       #verify that logout button is shown after logged into live cube application
       expect(logout).to eql(true)
 
-
-
+      puts "Test Login livecube email method completed successfully"
     end
   end
  end

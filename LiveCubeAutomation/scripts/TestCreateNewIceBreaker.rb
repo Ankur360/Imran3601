@@ -63,7 +63,7 @@ describe "Scenario test create New Ice Breaker" do
       successMsg= editlivecubemeeting.verifyIceBreakerCreated()
       expect(successMsg).to include("Icebreaker was successfully created.")
 
-
+      puts "Test create new ice breaker method completed successfully"
     rescue
       CreateLog.new().Log("open application url")
       raise

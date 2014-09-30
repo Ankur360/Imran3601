@@ -11,7 +11,9 @@ class MorePage < SupportHelper
   def verifyInformationScreen()
     clickOnMoreTab()
     clickOnInformation()
-    verifyMeeting()
+    sleep(4)
+    meeting= verifyMeeting()
+    meeting
   end
 
   #Click on more tab
@@ -32,6 +34,7 @@ class MorePage < SupportHelper
     el= @driver.find_element(:class, "meeting-title")
     meetingName= el.text
     #assert_equal meetingName, "Automation Meeting"
+    meetingName
   end
 
 end
