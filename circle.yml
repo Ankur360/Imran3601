@@ -1,0 +1,9 @@
+
+## Customize test commands
+test:
+  override:
+    - rspec --format html --out reports/reports.html test_suite.rb # use PHPunit for testing
+
+  post:
+    - rspec --format html --out reports/reports.html test_suite.rb
+	

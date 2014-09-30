@@ -1,0 +1,906 @@
+*****************************************************************************
+2014-09-24 12:39:58 [Info] execution started of scenario Forgot password functionality
+*****************************************************************************
+2014-09-24 12:40:07 [Info] open application url
+2014-09-24 12:40:10 [Info] execution end of scenario Forgot password functionality
+*****************************************************************************
+*****************************************************************************
+2014-09-24 12:42:43 [Info] execution started of scenario Forgot password functionality
+*****************************************************************************
+2014-09-24 12:42:53 [Info] open application url
+2014-09-24 12:43:20 [Info] execution end of scenario Forgot password functionality
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:39:15 [Info] execution started of Test Class Scenario test create meeting
+*****************************************************************************
+2014-09-24 13:39:24 [Info] open application url
+2014-09-24 13:40:05 [Info] execution end of Test Class create meeting
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:40:19 [Info] execution started of Test Class Scenario test create speaker
+*****************************************************************************
+2014-09-24 13:40:27 [Info] open application url
+2014-09-24 13:41:09 [Info] execution end of Test Class Scenario test create speaker
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:41:26 [Info] execution started of Test Class Scenario test create session
+*****************************************************************************
+2014-09-24 13:41:36 [Info] open application url
+2014-09-24 13:42:20 [Info] execution end of Test Class Scenario test create session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:42:39 [Info] execution started of Test Class Scenario test create team
+*****************************************************************************
+2014-09-24 13:42:51 [Info] open application url
+2014-09-24 13:43:28 [Info] execution end of Test Class Scenario test create team
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:43:46 [Info] execution started of Test Class Scenario test create prize
+*****************************************************************************
+2014-09-24 13:44:08 [Info] open application url
+2014-09-24 13:45:10 [Info] execution end of Test Class Scenario test create prize
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:45:23 [Info] execution started of Test Class Scenario test verify survey
+*****************************************************************************
+2014-09-24 13:45:32 [Info] open application url
+2014-09-24 13:46:08 [Info] execution end of Test Class Scenario test verify survey
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:46:28 [Info] execution started of Test Class Scenario test verify projected view screen
+*****************************************************************************
+2014-09-24 13:46:38 [Info] open application url
+2014-09-24 13:47:03 [Info] execution end of Test Class Scenario test verify projected view screen
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:47:20 [Info] execution started of Test Class Scenario New Ice Breaker
+*****************************************************************************
+2014-09-24 13:47:27 [Info] open application url
+2014-09-24 13:48:14 [Info] execution end of Test Class Scenario New Ice Breaker
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:48:30 [Info] execution started of scenario login with email at very first time
+*****************************************************************************
+2014-09-24 13:48:40 [Info] open application url
+2014-09-24 13:48:58 [Info] execution end of scenario login with email at very first time
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:49:08 [Info] execution started of scenario login with twitter account at very first time
+*****************************************************************************
+2014-09-24 13:49:15 [Info] open application url
+2014-09-24 13:49:53 [Info] execution end of scenario login with twitter account at very first time
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:50:03 [Info] execution started of scenario login with email account
+*****************************************************************************
+2014-09-24 13:50:16 [Info] open application url
+2014-09-24 13:50:29 [Info] execution end of scenario login with email account
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:50:38 [Info] execution started of scenario login with twitter account
+*****************************************************************************
+2014-09-24 13:50:45 [Info] open application url
+2014-09-24 13:51:06 [Info] execution end of scenario login with twitter account
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:51:21 [Info] execution started of scenario Forgot password functionality
+*****************************************************************************
+2014-09-24 13:51:29 [Info] open application url
+2014-09-24 13:51:57 [Info] execution end of scenario Forgot password functionality
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:52:12 [Info] execution started of Test Class user add and join session
+*****************************************************************************
+2014-09-24 13:52:21 [Info] open application url
+2014-09-24 13:53:01 [Info] execution end of Test user add and join session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:53:11 [Info] execution started of Test Class user can add post the message
+*****************************************************************************
+2014-09-24 13:53:21 [Info] open application url
+2014-09-24 13:53:57 [Info] login to the application
+2014-09-24 13:53:59 [Info] execution end of Test post message
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:54:08 [Info] execution started of Test Class Repost and favorite
+*****************************************************************************
+2014-09-24 13:54:23 [Info] open application url
+2014-09-24 13:55:07 [Info] login to the application
+2014-09-24 13:55:09 [Info] execution end of Test Repost and Favorite
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:55:20 [Info] execution started of Test Class Rate the session
+*****************************************************************************
+2014-09-24 13:55:26 [Info] open application url
+2014-09-24 13:56:22 [Info] login to the application
+2014-09-24 13:56:25 [Info] execution end of Test Rate the session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:56:34 [Info] execution started of Test Class Flag and Reply
+*****************************************************************************
+2014-09-24 13:56:42 [Info] open application url
+2014-09-24 13:57:24 [Info] login to the application
+2014-09-24 13:57:26 [Info] execution end of Test Flag and Reply
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:57:36 [Info] execution started of Test Class scenarios Attendees and Speaker
+*****************************************************************************
+2014-09-24 13:57:42 [Info] open application url
+2014-09-24 13:58:07 [Info] login to the application
+2014-09-24 13:58:10 [Info] execution end of Test Test Class scenarios Attendees and Speaker
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:58:19 [Info] execution started of Test Class scenarios verify more>>information page
+*****************************************************************************
+2014-09-24 13:58:28 [Info] open application url
+2014-09-24 13:58:43 [Info] login to the application
+2014-09-24 13:58:46 [Info] execution end of Test Test Class scenarios verify more>>information page
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:58:55 [Info] execution started of Test Class scenarios verify user activity
+*****************************************************************************
+2014-09-24 13:59:02 [Info] open application url
+2014-09-24 13:59:16 [Info] login to the application
+2014-09-24 13:59:18 [Info] execution end of Test Test Class scenarios verify user activity
+*****************************************************************************
+*****************************************************************************
+2014-09-24 13:59:32 [Info] execution started of Test Class scenarios update user profile
+*****************************************************************************
+2014-09-24 13:59:44 [Info] open application url
+2014-09-24 14:00:29 [Info] execution end of Test Test Class scenarios update user profile
+*****************************************************************************
+*****************************************************************************
+2014-09-24 14:00:41 [Info] execution started of Test Class user can remove the post
+*****************************************************************************
+2014-09-24 14:00:47 [Info] open application url
+2014-09-24 14:01:44 [Info] login to the application
+2014-09-24 14:01:46 [Info] execution end of Test user cane remove the post
+*****************************************************************************
+*****************************************************************************
+2014-09-24 14:19:58 [Info] execution started of Test Class Scenario test create meeting
+*****************************************************************************
+2014-09-24 14:20:11 [Info] open application url
+2014-09-24 14:20:49 [Info] execution end of Test Class create meeting
+*****************************************************************************
+*****************************************************************************
+2014-09-24 14:21:05 [Info] execution started of Test Class Scenario test create speaker
+*****************************************************************************
+2014-09-24 14:21:14 [Info] open application url
+2014-09-24 14:21:54 [Info] execution end of Test Class Scenario test create speaker
+*****************************************************************************
+*****************************************************************************
+2014-09-24 14:22:12 [Info] execution started of Test Class Scenario test create session
+*****************************************************************************
+2014-09-24 14:22:25 [Info] open application url
+2014-09-24 14:23:19 [Info] execution end of Test Class Scenario test create session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 14:23:30 [Info] execution started of Test Class Scenario test create team
+*****************************************************************************
+2014-09-24 14:23:46 [Info] open application url
+2014-09-24 14:24:27 [Info] execution end of Test Class Scenario test create team
+*****************************************************************************
+*****************************************************************************
+2014-09-24 14:24:39 [Info] execution started of Test Class Scenario test create prize
+*****************************************************************************
+2014-09-24 14:24:52 [Info] open application url
+2014-09-24 14:25:55 [Info] execution end of Test Class Scenario test create prize
+*****************************************************************************
+*****************************************************************************
+2014-09-24 14:26:11 [Info] execution started of Test Class Scenario test verify survey
+*****************************************************************************
+2014-09-24 14:26:22 [Info] open application url
+2014-09-24 14:26:55 [Info] execution end of Test Class Scenario test verify survey
+*****************************************************************************
+*****************************************************************************
+2014-09-24 14:27:19 [Info] execution started of Test Class Scenario test verify projected view screen
+*****************************************************************************
+2014-09-24 14:27:28 [Info] open application url
+2014-09-24 14:27:53 [Info] execution end of Test Class Scenario test verify projected view screen
+*****************************************************************************
+*****************************************************************************
+2014-09-24 14:28:11 [Info] execution started of Test Class Scenario New Ice Breaker
+*****************************************************************************
+2014-09-24 14:28:22 [Info] open application url
+2014-09-24 14:29:13 [Info] execution end of Test Class Scenario New Ice Breaker
+*****************************************************************************
+*****************************************************************************
+2014-09-24 14:29:30 [Info] execution started of scenario login with email at very first time
+*****************************************************************************
+2014-09-24 14:29:45 [Info] open application url
+*****************************************************************************
+2014-09-24 14:30:49 [Info] execution started of scenario login with twitter account at very first time
+*****************************************************************************
+2014-09-24 14:31:02 [Info] open application url
+2014-09-24 14:31:49 [Info] execution end of scenario login with twitter account at very first time
+*****************************************************************************
+*****************************************************************************
+2014-09-24 14:32:35 [Info] execution started of scenario login with email account
+*****************************************************************************
+2014-09-24 14:32:46 [Info] open application url
+*****************************************************************************
+2014-09-24 14:33:43 [Info] execution started of scenario login with twitter account
+*****************************************************************************
+2014-09-24 14:33:54 [Info] open application url
+2014-09-24 14:34:32 [Info] execution end of scenario login with twitter account
+*****************************************************************************
+*****************************************************************************
+2014-09-24 14:34:50 [Info] execution started of scenario Forgot password functionality
+*****************************************************************************
+2014-09-24 14:35:05 [Info] open application url
+2014-09-24 14:35:41 [Info] execution end of scenario Forgot password functionality
+*****************************************************************************
+*****************************************************************************
+2014-09-24 14:35:53 [Info] execution started of Test Class user add and join session
+*****************************************************************************
+2014-09-24 14:36:00 [Info] open application url
+2014-09-24 14:36:16 [Info] login to the application
+*****************************************************************************
+2014-09-24 14:36:59 [Info] execution started of Test Class user can add post the message
+*****************************************************************************
+2014-09-24 14:37:11 [Info] open application url
+2014-09-24 14:37:51 [Info] login to the application
+*****************************************************************************
+2014-09-24 14:38:50 [Info] execution started of Test Class Repost and favorite
+*****************************************************************************
+2014-09-24 14:39:14 [Info] open application url
+2014-09-24 14:40:07 [Info] login to the application
+*****************************************************************************
+2014-09-24 14:41:08 [Info] execution started of Test Class Rate the session
+*****************************************************************************
+2014-09-24 14:41:50 [Info] open application url
+2014-09-24 14:42:52 [Info] login to the application
+*****************************************************************************
+2014-09-24 14:43:53 [Info] execution started of Test Class Flag and Reply
+*****************************************************************************
+2014-09-24 14:44:11 [Info] open application url
+2014-09-24 14:44:56 [Info] login to the application
+*****************************************************************************
+2014-09-24 14:45:50 [Info] execution started of Test Class scenarios Attendees and Speaker
+*****************************************************************************
+2014-09-24 14:46:16 [Info] open application url
+2014-09-24 14:46:45 [Info] login to the application
+*****************************************************************************
+2014-09-24 14:47:06 [Info] execution started of Test Class scenarios verify more>>information page
+*****************************************************************************
+2014-09-24 14:47:15 [Info] open application url
+2014-09-24 14:47:30 [Info] login to the application
+*****************************************************************************
+2014-09-24 14:48:17 [Info] execution started of Test Class scenarios verify user activity
+*****************************************************************************
+2014-09-24 14:48:36 [Info] open application url
+2014-09-24 14:48:57 [Info] login to the application
+*****************************************************************************
+2014-09-24 14:49:44 [Info] execution started of Test Class scenarios update user profile
+*****************************************************************************
+2014-09-24 14:49:57 [Info] open application url
+2014-09-24 14:50:30 [Info] login to the application
+*****************************************************************************
+2014-09-24 14:51:24 [Info] execution started of Test Class user can remove the post
+*****************************************************************************
+2014-09-24 14:51:39 [Info] open application url
+2014-09-24 14:52:39 [Info] login to the application
+*****************************************************************************
+2014-09-24 15:19:29 [Info] execution started of Test Class user can add post the message
+*****************************************************************************
+2014-09-24 15:19:39 [Info] open application url
+2014-09-24 15:20:19 [Info] login to the application
+2014-09-24 15:20:30 [Info] execution end of Test post message
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:23:14 [Info] execution started of Test Class Scenario test create meeting
+*****************************************************************************
+2014-09-24 15:23:26 [Info] open application url
+2014-09-24 15:24:12 [Info] execution end of Test Class create meeting
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:24:32 [Info] execution started of Test Class Scenario test create speaker
+*****************************************************************************
+2014-09-24 15:24:47 [Info] open application url
+2014-09-24 15:25:30 [Info] execution end of Test Class Scenario test create speaker
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:25:43 [Info] execution started of Test Class Scenario test create session
+*****************************************************************************
+2014-09-24 15:25:56 [Info] open application url
+2014-09-24 15:26:59 [Info] execution end of Test Class Scenario test create session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:27:15 [Info] execution started of Test Class Scenario test create team
+*****************************************************************************
+2014-09-24 15:27:27 [Info] open application url
+2014-09-24 15:28:14 [Info] execution end of Test Class Scenario test create team
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:28:30 [Info] execution started of Test Class Scenario test create prize
+*****************************************************************************
+2014-09-24 15:28:42 [Info] open application url
+2014-09-24 15:30:01 [Info] execution end of Test Class Scenario test create prize
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:30:22 [Info] execution started of Test Class Scenario test verify survey
+*****************************************************************************
+2014-09-24 15:30:35 [Info] open application url
+2014-09-24 15:31:14 [Info] execution end of Test Class Scenario test verify survey
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:31:29 [Info] execution started of Test Class Scenario test verify projected view screen
+*****************************************************************************
+2014-09-24 15:31:39 [Info] open application url
+2014-09-24 15:32:23 [Info] execution end of Test Class Scenario test verify projected view screen
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:32:46 [Info] execution started of Test Class Scenario New Ice Breaker
+*****************************************************************************
+2014-09-24 15:32:57 [Info] open application url
+2014-09-24 15:33:50 [Info] execution end of Test Class Scenario New Ice Breaker
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:34:04 [Info] execution started of scenario login with email at very first time
+*****************************************************************************
+2014-09-24 15:34:15 [Info] open application url
+2014-09-24 15:34:43 [Info] execution end of scenario login with email at very first time
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:34:57 [Info] execution started of scenario login with twitter account at very first time
+*****************************************************************************
+2014-09-24 15:35:12 [Info] open application url
+2014-09-24 15:35:51 [Info] execution end of scenario login with twitter account at very first time
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:36:01 [Info] execution started of scenario login with email account
+*****************************************************************************
+2014-09-24 15:36:12 [Info] open application url
+2014-09-24 15:36:36 [Info] execution end of scenario login with email account
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:36:45 [Info] execution started of scenario login with twitter account
+*****************************************************************************
+2014-09-24 15:37:02 [Info] open application url
+2014-09-24 15:37:40 [Info] execution end of scenario login with twitter account
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:37:49 [Info] execution started of scenario Forgot password functionality
+*****************************************************************************
+2014-09-24 15:37:56 [Info] open application url
+2014-09-24 15:38:32 [Info] execution end of scenario Forgot password functionality
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:38:46 [Info] execution started of Test Class user add and join session
+*****************************************************************************
+2014-09-24 15:38:55 [Info] open application url
+2014-09-24 15:39:09 [Info] login to the application
+2014-09-24 15:39:23 [Info] execution end of Test user add and join session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:39:33 [Info] execution started of Test Class user can add post the message
+*****************************************************************************
+2014-09-24 15:39:42 [Info] open application url
+2014-09-24 15:40:31 [Info] login to the application
+2014-09-24 15:40:46 [Info] execution end of Test post message
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:40:55 [Info] execution started of Test Class Repost and favorite
+*****************************************************************************
+2014-09-24 15:41:08 [Info] open application url
+2014-09-24 15:41:51 [Info] login to the application
+2014-09-24 15:42:07 [Info] execution end of Test Repost and Favorite
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:42:17 [Info] execution started of Test Class Rate the session
+*****************************************************************************
+2014-09-24 15:42:23 [Info] open application url
+2014-09-24 15:43:19 [Info] login to the application
+2014-09-24 15:43:36 [Info] execution end of Test Rate the session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:43:45 [Info] execution started of Test Class Flag and Reply
+*****************************************************************************
+2014-09-24 15:43:54 [Info] open application url
+2014-09-24 15:44:41 [Info] login to the application
+2014-09-24 15:44:59 [Info] execution end of Test Flag and Reply
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:45:14 [Info] execution started of Test Class scenarios Attendees and Speaker
+*****************************************************************************
+2014-09-24 15:45:25 [Info] open application url
+2014-09-24 15:45:51 [Info] login to the application
+*****************************************************************************
+2014-09-24 15:46:09 [Info] execution started of Test Class scenarios verify more>>information page
+*****************************************************************************
+2014-09-24 15:46:21 [Info] open application url
+2014-09-24 15:46:35 [Info] login to the application
+2014-09-24 15:46:52 [Info] execution end of Test Test Class scenarios verify more>>information page
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:47:00 [Info] execution started of Test Class scenarios verify user activity
+*****************************************************************************
+2014-09-24 15:47:12 [Info] open application url
+2014-09-24 15:47:30 [Info] login to the application
+*****************************************************************************
+2014-09-24 15:48:16 [Info] execution started of Test Class scenarios update user profile
+*****************************************************************************
+2014-09-24 15:48:27 [Info] open application url
+2014-09-24 15:48:54 [Info] login to the application
+2014-09-24 15:49:09 [Info] execution end of Test Test Class scenarios update user profile
+*****************************************************************************
+*****************************************************************************
+2014-09-24 15:49:19 [Info] execution started of Test Class user can remove the post
+*****************************************************************************
+2014-09-24 15:49:30 [Info] open application url
+2014-09-24 15:50:24 [Info] login to the application
+2014-09-24 15:50:39 [Info] execution end of Test user cane remove the post
+*****************************************************************************
+*****************************************************************************
+2014-09-24 17:47:12 [Info] execution started of Test Recent and Popular sorting 
+*****************************************************************************
+2014-09-24 17:47:34 [Info] open application url
+2014-09-24 17:48:32 [Info] execution end of Test Recent and Popular sorting
+*****************************************************************************
+*****************************************************************************
+2014-09-24 17:56:33 [Info] execution started of Test Recent and Popular sorting 
+*****************************************************************************
+2014-09-24 17:56:48 [Info] open application url
+2014-09-24 17:58:01 [Info] execution end of Test Recent and Popular sorting
+*****************************************************************************
+*****************************************************************************
+2014-09-24 17:59:21 [Info] execution started of Test Recent and Popular sorting 
+*****************************************************************************
+2014-09-24 17:59:29 [Info] open application url
+2014-09-24 18:00:13 [Info] login to the application
+2014-09-24 18:00:29 [Info] execution end of Test Recent and Popular sorting
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:01:48 [Info] execution started of Test Recent and Popular sorting 
+*****************************************************************************
+2014-09-24 18:01:55 [Info] open application url
+2014-09-24 18:03:08 [Info] execution end of Test Recent and Popular sorting
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:04:15 [Info] execution started of Test Recent and Popular sorting 
+*****************************************************************************
+2014-09-24 18:04:24 [Info] open application url
+2014-09-24 18:05:18 [Info] login to the application
+2014-09-24 18:05:38 [Info] execution end of Test Recent and Popular sorting
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:18:49 [Info] execution started of Test Class Scenario test create meeting
+*****************************************************************************
+2014-09-24 18:19:49 [Info] open application url
+*****************************************************************************
+2014-09-24 18:20:46 [Info] execution started of Test Class Scenario test create speaker
+*****************************************************************************
+2014-09-24 18:21:09 [Info] open application url
+2014-09-24 18:22:00 [Info] execution end of Test Class Scenario test create speaker
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:22:14 [Info] execution started of Test Class Scenario test create session
+*****************************************************************************
+2014-09-24 18:22:24 [Info] open application url
+2014-09-24 18:23:14 [Info] execution end of Test Class Scenario test create session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:23:26 [Info] execution started of Test Class Scenario test create team
+*****************************************************************************
+2014-09-24 18:23:34 [Info] open application url
+2014-09-24 18:24:30 [Info] execution end of Test Class Scenario test create team
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:24:42 [Info] execution started of Test Class Scenario test create prize
+*****************************************************************************
+2014-09-24 18:24:56 [Info] open application url
+2014-09-24 18:25:42 [Info] execution end of Test Class Scenario test create prize
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:26:00 [Info] execution started of Test Class Scenario test verify survey
+*****************************************************************************
+2014-09-24 18:26:10 [Info] open application url
+2014-09-24 18:26:48 [Info] execution end of Test Class Scenario test verify survey
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:26:58 [Info] execution started of Test Class Scenario test verify projected view screen
+*****************************************************************************
+2014-09-24 18:27:08 [Info] open application url
+2014-09-24 18:27:37 [Info] execution end of Test Class Scenario test verify projected view screen
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:27:52 [Info] execution started of Test Class Scenario New Ice Breaker
+*****************************************************************************
+2014-09-24 18:28:04 [Info] open application url
+2014-09-24 18:28:48 [Info] execution end of Test Class Scenario New Ice Breaker
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:29:00 [Info] execution started of scenario login with email at very first time
+*****************************************************************************
+2014-09-24 18:29:13 [Info] open application url
+2014-09-24 18:29:48 [Info] execution end of scenario login with email at very first time
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:29:58 [Info] execution started of scenario login with twitter account at very first time
+*****************************************************************************
+2014-09-24 18:30:05 [Info] open application url
+2014-09-24 18:30:50 [Info] execution end of scenario login with twitter account at very first time
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:31:06 [Info] execution started of scenario login with email account
+*****************************************************************************
+2014-09-24 18:31:15 [Info] open application url
+2014-09-24 18:31:42 [Info] execution end of scenario login with email account
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:32:01 [Info] execution started of scenario login with twitter account
+*****************************************************************************
+2014-09-24 18:32:20 [Info] open application url
+2014-09-24 18:33:07 [Info] execution end of scenario login with twitter account
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:33:19 [Info] execution started of scenario Forgot password functionality
+*****************************************************************************
+2014-09-24 18:33:27 [Info] open application url
+2014-09-24 18:34:00 [Info] execution end of scenario Forgot password functionality
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:34:10 [Info] execution started of Test Class user add and join session
+*****************************************************************************
+2014-09-24 18:34:20 [Info] open application url
+2014-09-24 18:34:39 [Info] login to the application
+2014-09-24 18:34:58 [Info] execution end of Test user add and join session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:35:14 [Info] execution started of Test Class user can add post the message
+*****************************************************************************
+2014-09-24 18:35:37 [Info] open application url
+2014-09-24 18:36:20 [Info] login to the application
+2014-09-24 18:36:38 [Info] execution end of Test post message
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:36:51 [Info] execution started of Test Class Repost and favorite
+*****************************************************************************
+2014-09-24 18:37:16 [Info] open application url
+2014-09-24 18:37:43 [Info] execution end of Test Repost and Favorite
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:37:54 [Info] execution started of Test Recent and Popular sorting 
+*****************************************************************************
+2014-09-24 18:38:20 [Info] open application url
+2014-09-24 18:39:21 [Info] login to the application
+2014-09-24 18:39:39 [Info] execution end of Test Recent and Popular sorting
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:39:55 [Info] execution started of Test Class Rate the session
+*****************************************************************************
+2014-09-24 18:40:13 [Info] open application url
+2014-09-24 18:41:19 [Info] execution end of Test Rate the session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:41:30 [Info] execution started of Test Class Flag and Reply
+*****************************************************************************
+2014-09-24 18:41:42 [Info] open application url
+2014-09-24 18:42:28 [Info] login to the application
+2014-09-24 18:42:46 [Info] execution end of Test Flag and Reply
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:42:57 [Info] execution started of Test Class scenarios Attendees and Speaker
+*****************************************************************************
+2014-09-24 18:43:05 [Info] open application url
+2014-09-24 18:43:36 [Info] login to the application
+*****************************************************************************
+2014-09-24 18:43:54 [Info] execution started of Test Class scenarios verify more>>information page
+*****************************************************************************
+2014-09-24 18:44:11 [Info] open application url
+2014-09-24 18:44:28 [Info] login to the application
+2014-09-24 18:44:48 [Info] execution end of Test Test Class scenarios verify more>>information page
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:45:03 [Info] execution started of Test Class scenarios verify user activity
+*****************************************************************************
+2014-09-24 18:45:15 [Info] open application url
+2014-09-24 18:45:39 [Info] login to the application
+2014-09-24 18:45:53 [Info] execution end of Test Test Class scenarios verify user activity
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:46:04 [Info] execution started of Test Class scenarios update user profile
+*****************************************************************************
+2014-09-24 18:46:14 [Info] open application url
+2014-09-24 18:47:39 [Info] execution end of Test Test Class scenarios update user profile
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:47:52 [Info] execution started of Test Class user can remove the post
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:58:02 [Info] execution started of Test Class Scenario test create meeting
+*****************************************************************************
+2014-09-24 18:58:18 [Info] open application url
+2014-09-24 18:59:00 [Info] execution end of Test Class create meeting
+*****************************************************************************
+*****************************************************************************
+2014-09-24 18:59:16 [Info] execution started of Test Class Scenario test create speaker
+*****************************************************************************
+2014-09-24 19:00:00 [Info] open application url
+2014-09-24 19:00:50 [Info] execution end of Test Class Scenario test create speaker
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:01:06 [Info] execution started of Test Class Scenario test create session
+*****************************************************************************
+2014-09-24 19:01:34 [Info] open application url
+2014-09-24 19:02:22 [Info] execution end of Test Class Scenario test create session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:02:38 [Info] execution started of Test Class Scenario test create team
+*****************************************************************************
+2014-09-24 19:02:49 [Info] open application url
+2014-09-24 19:03:32 [Info] execution end of Test Class Scenario test create team
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:03:42 [Info] execution started of Test Class Scenario test create prize
+*****************************************************************************
+2014-09-24 19:03:52 [Info] open application url
+2014-09-24 19:04:56 [Info] execution end of Test Class Scenario test create prize
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:05:14 [Info] execution started of Test Class Scenario test verify survey
+*****************************************************************************
+2014-09-24 19:05:28 [Info] open application url
+2014-09-24 19:06:06 [Info] execution end of Test Class Scenario test verify survey
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:06:18 [Info] execution started of Test Class Scenario test verify projected view screen
+*****************************************************************************
+2014-09-24 19:06:37 [Info] open application url
+2014-09-24 19:07:17 [Info] execution end of Test Class Scenario test verify projected view screen
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:07:34 [Info] execution started of Test Class Scenario New Ice Breaker
+*****************************************************************************
+2014-09-24 19:08:08 [Info] open application url
+2014-09-24 19:09:18 [Info] execution end of Test Class Scenario New Ice Breaker
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:09:30 [Info] execution started of scenario login with email at very first time
+*****************************************************************************
+2014-09-24 19:09:50 [Info] open application url
+2014-09-24 19:10:59 [Info] execution end of scenario login with email at very first time
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:11:09 [Info] execution started of scenario login with twitter account at very first time
+*****************************************************************************
+2014-09-24 19:11:24 [Info] open application url
+2014-09-24 19:12:25 [Info] execution end of scenario login with twitter account at very first time
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:12:35 [Info] execution started of scenario login with email account
+*****************************************************************************
+2014-09-24 19:13:15 [Info] open application url
+2014-09-24 19:13:55 [Info] execution end of scenario login with email account
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:14:06 [Info] execution started of scenario login with twitter account
+*****************************************************************************
+2014-09-24 19:14:26 [Info] open application url
+2014-09-24 19:15:25 [Info] execution end of scenario login with twitter account
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:15:35 [Info] execution started of scenario Forgot password functionality
+*****************************************************************************
+2014-09-24 19:16:13 [Info] open application url
+2014-09-24 19:17:07 [Info] execution end of scenario Forgot password functionality
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:17:24 [Info] execution started of Test Class user add and join session
+*****************************************************************************
+2014-09-24 19:17:57 [Info] open application url
+2014-09-24 19:18:15 [Info] login to the application
+2014-09-24 19:18:47 [Info] execution end of Test user add and join session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:18:58 [Info] execution started of Test Class user can add post the message
+*****************************************************************************
+2014-09-24 19:19:18 [Info] open application url
+2014-09-24 19:20:24 [Info] login to the application
+2014-09-24 19:20:44 [Info] execution end of Test post message
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:21:00 [Info] execution started of Test Class Repost and favorite
+*****************************************************************************
+2014-09-24 19:21:42 [Info] open application url
+2014-09-24 19:22:28 [Info] login to the application
+2014-09-24 19:22:49 [Info] execution end of Test Repost and Favorite
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:23:00 [Info] execution started of Test Recent and Popular sorting 
+*****************************************************************************
+2014-09-24 19:23:19 [Info] open application url
+*****************************************************************************
+2014-09-24 19:25:28 [Info] execution started of Test Class Rate the session
+*****************************************************************************
+2014-09-24 19:25:51 [Info] open application url
+2014-09-24 19:27:02 [Info] login to the application
+2014-09-24 19:27:34 [Info] execution end of Test Rate the session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:27:51 [Info] execution started of Test Class Flag and Reply
+*****************************************************************************
+2014-09-24 19:28:09 [Info] open application url
+2014-09-24 19:29:58 [Info] execution end of Test Flag and Reply
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:30:09 [Info] execution started of Test Class scenarios Attendees and Speaker
+*****************************************************************************
+2014-09-24 19:30:30 [Info] open application url
+2014-09-24 19:31:04 [Info] login to the application
+*****************************************************************************
+2014-09-24 19:31:22 [Info] execution started of Test Class scenarios verify more>>information page
+*****************************************************************************
+2014-09-24 19:31:36 [Info] open application url
+2014-09-24 19:31:51 [Info] login to the application
+2014-09-24 19:32:08 [Info] execution end of Test Test Class scenarios verify more>>information page
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:32:46 [Info] execution started of Test Class scenarios verify user activity
+*****************************************************************************
+2014-09-24 19:33:09 [Info] open application url
+2014-09-24 19:33:53 [Info] login to the application
+2014-09-24 19:34:11 [Info] execution end of Test Test Class scenarios verify user activity
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:34:21 [Info] execution started of Test Class scenarios update user profile
+*****************************************************************************
+2014-09-24 19:34:49 [Info] open application url
+2014-09-24 19:35:20 [Info] login to the application
+2014-09-24 19:35:32 [Info] execution end of Test Test Class scenarios update user profile
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:35:47 [Info] execution started of Test Class user can remove the post
+*****************************************************************************
+2014-09-24 19:36:06 [Info] open application url
+2014-09-24 19:37:08 [Info] login to the application
+2014-09-24 19:37:32 [Info] execution end of Test user cane remove the post
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:55:22 [Info] execution started of Test Class Scenario test create meeting
+*****************************************************************************
+2014-09-24 19:56:22 [Info] open application url
+*****************************************************************************
+2014-09-24 19:57:13 [Info] execution started of Test Class Scenario test create speaker
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:57:37 [Info] execution started of Test Class Scenario test create session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:57:54 [Info] execution started of Test Class Scenario test create team
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:58:22 [Info] execution started of Test Class Scenario test create prize
+*****************************************************************************
+*****************************************************************************
+2014-09-24 19:58:44 [Info] execution started of Test Class Scenario test verify survey
+*****************************************************************************
+2014-09-24 19:58:47 [Info] open application url
+*****************************************************************************
+2014-09-24 19:59:01 [Info] execution started of Test Class Scenario test verify projected view screen
+*****************************************************************************
+2014-09-24 19:59:02 [Info] open application url
+*****************************************************************************
+2014-09-24 19:59:57 [Info] execution started of scenario login with twitter account at very first time
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:00:21 [Info] execution started of scenario login with email account
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:00:44 [Info] execution started of scenario login with twitter account
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:01:03 [Info] execution started of scenario Forgot password functionality
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:03:37 [Info] execution started of Test Class scenarios verify more>>information page
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:03:56 [Info] execution started of Test Class scenarios verify user activity
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:04:13 [Info] execution started of Test Class scenarios update user profile
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:04:39 [Info] execution started of Test Class user can remove the post
+*****************************************************************************
+2014-09-24 20:05:03 [Info] open application url
+*****************************************************************************
+2014-09-24 20:16:13 [Info] execution started of Test Class Scenario test create meeting
+*****************************************************************************
+2014-09-24 20:16:34 [Info] open application url
+2014-09-24 20:18:13 [Info] execution end of Test Class create meeting
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:18:28 [Info] execution started of Test Class Scenario test create speaker
+*****************************************************************************
+2014-09-24 20:18:57 [Info] open application url
+2014-09-24 20:19:35 [Info] execution end of Test Class Scenario test create speaker
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:19:51 [Info] execution started of Test Class Scenario test create session
+*****************************************************************************
+2014-09-24 20:20:02 [Info] open application url
+2014-09-24 20:20:50 [Info] execution end of Test Class Scenario test create session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:21:03 [Info] execution started of Test Class Scenario test create team
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:23:18 [Info] execution started of Test Class Scenario test create prize
+*****************************************************************************
+2014-09-24 20:23:58 [Info] open application url
+2014-09-24 20:25:02 [Info] execution end of Test Class Scenario test create prize
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:25:13 [Info] execution started of Test Class Scenario test verify survey
+*****************************************************************************
+2014-09-24 20:25:15 [Info] open application url
+*****************************************************************************
+2014-09-24 20:25:36 [Info] execution started of Test Class Scenario New Ice Breaker
+*****************************************************************************
+2014-09-24 20:25:50 [Info] open application url
+*****************************************************************************
+2014-09-24 20:26:00 [Info] execution started of scenario login with email at very first time
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:26:21 [Info] execution started of scenario login with twitter account at very first time
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:26:47 [Info] execution started of scenario login with email account
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:27:08 [Info] execution started of scenario login with twitter account
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:27:27 [Info] execution started of scenario Forgot password functionality
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:27:44 [Info] execution started of Test Class user add and join session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:28:22 [Info] execution started of Test Class user can add post the message
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:29:01 [Info] execution started of Test Class Repost and favorite
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:29:16 [Info] execution started of Test Class Rate the session
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:29:36 [Info] execution started of Test Class Flag and Reply
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:29:53 [Info] execution started of Test Recent and Popular sorting 
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:30:09 [Info] execution started of Test Class scenarios Attendees and Speaker
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:30:34 [Info] execution started of Test Class scenarios verify more>>information page
+*****************************************************************************
+2014-09-24 20:31:27 [Info] open application url
+2014-09-24 20:31:41 [Info] login to the application
+2014-09-24 20:32:00 [Info] execution end of Test Test Class scenarios verify more>>information page
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:32:13 [Info] execution started of Test Class scenarios verify user activity
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:32:31 [Info] execution started of Test Class scenarios update user profile
+*****************************************************************************
+*****************************************************************************
+2014-09-24 20:32:47 [Info] execution started of Test Class user can remove the post
+*****************************************************************************
+*****************************************************************************
+2014-09-24 21:27:26 [Info] execution started of Test Class scenarios Attendees and Speaker
+*****************************************************************************
+2014-09-24 21:27:36 [Info] open application url
+2014-09-24 21:28:06 [Info] login to the application
+*****************************************************************************
+2014-09-24 21:29:44 [Info] execution started of Test Class scenarios Attendees and Speaker
+*****************************************************************************
+2014-09-24 21:29:51 [Info] open application url
+2014-09-24 21:30:21 [Info] login to the application
+2014-09-24 21:30:39 [Info] execution end of Test Test Class scenarios Attendees and Speaker
+*****************************************************************************

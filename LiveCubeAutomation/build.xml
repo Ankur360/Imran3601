@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+
+<project name="LiveCube" default="All" basedir=".">
+
+  <!--clean up the last run-->
+  <target name="clean">
+    <echo message="Deleteing Log directory..."/>
+    <!--<delete dir="reports"/>-->
+	<!--<delete dir="reports" failonerror="false" includeEmptyDirs="true" />-->
+	<delete><fileset dir="reports"/></delete>
+    <mkdir dir="reports"/>
+  </target>
+
+  <!--Run all test cases-->
+  <target name="All" depends="clean">
+    <echo message="Executing test suite "/>
+    <exec dir="." executable="cmd" failonerror="true">
+      <arg line="/c rspec --format html --out reports/report.html test_suite.rb"/>
+    </exec>
+  </target>
+
+
+  <!--Run Scenario test create meeting-->
+  <target name="TestCreateMeeting" depends="clean">
+    <echo message="Executing TestCreateMeeting"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestCreateMeeting.html scripts/TestCreateMeeting.rb"/>
+    </exec>
+  </target>
+
+  <!--Run Scenario test create speaker -->
+  <target name="TestCreateSpeaker" depends="clean">
+    <echo message="Executing TestCreateSpeaker"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestCreateSpeaker.html scripts/TestCreateSpeaker.rb"/>
+    </exec>
+  </target>
+
+
+  <!--Run Scenario test create session -->
+  <target name="TestCreateSession" depends="clean">
+    <echo message="Executing TestCreateSession"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestCreateSession.html scripts/TestCreateSession.rb"/>
+    </exec>
+  </target>
+
+  <!--Run Scenario test TestCreateTeam-->
+  <target name="TestCreateTeam" depends="clean">
+    <echo message="Executing TestCreateTeam"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestCreateTeam.html scripts/TestCreateTeam.rb"/>
+    </exec>
+  </target>
+
+  <!--Run Scenario test create Prize -->
+  <target name="TestCreatePrize" depends="clean">
+    <echo message="Executing TestCreatePrize"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestCreatePrize.html scripts/TestCreatePrize.rb"/>
+    </exec>
+  </target>
+
+
+  <!--Run Scenario test create survey -->
+  <target name="TestCreateSurvey" depends="clean">
+    <echo message="Executing TestCreateSurvey"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestCreateSurvey.html scripts/TestCreateSurvey.rb"/>
+    </exec>
+  </target>
+
+
+  <!--Run Scenario test TestProjectView -->
+  <target name="TestProjectView" depends="clean">
+    <echo message="Executing TestProjectView"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestProjectView.html scripts/TestProjectView.rb"/>
+    </exec>
+  </target>
+
+
+  <!--Run the Scenario add New IceBreaker  -->
+  <target name="TestCreateNewIceBreaker" depends="clean">
+    <echo message="Executing TestCreateNewIceBreaker"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestCreateNewIceBreaker.html scripts/TestCreateNewIceBreaker.rb"/>
+    </exec>
+  </target>
+
+
+  <!--Run the Scenario Login to Livecude with email at very first time  -->
+  <target name="TestLoginLiveCubeFirstTimeEmail" depends="clean">
+    <echo message="Executing TestLoginLiveCubeFirstTimeEmail"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestLoginLiveCubeFirstTimeEmail.html scripts/TestLoginLiveCubeFirstTimeEmail.rb"/>
+    </exec>
+  </target>
+
+  <!--Run the Scenario Login to Livecude with twitter at very first time  -->
+  <target name="TestLoginLiveCubeFirstTimeTwitter" depends="clean">
+    <echo message="Executing TestLoginLiveCubeFirstTimeTwitter"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestLoginLiveCubeFirstTimeTwitter.html scripts/TestLoginLiveCubeFirstTimeTwitter.rb"/>
+    </exec>
+  </target>
+
+  <!--Run the Scenario Login to Livecude with email  -->
+  <target name="TestLoginLiveCubeEmail" depends="clean">
+    <echo message="Executing TestLoginLiveCubeEmail"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestLoginLiveCubeEmail.html scripts/TestLoginLiveCubeEmail.rb"/>
+    </exec>
+  </target>
+
+  <!--Run the Scenario Login to Livecude with twitter  -->
+  <target name="TestLoginLiveCubeTwitter" depends="clean">
+    <echo message="Executing TestLoginLiveCubeTwitter"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestLoginLiveCubeTwitter.html scripts/TestLoginLiveCubeTwitter.rb"/>
+    </exec>
+  </target>
+
+
+  <!--Run the Scenario Forgot Password functionality -->
+  <target name="TestForgotPasswordTwitter" depends="clean">
+    <echo message="Executing TestForgotPasswordTwitter"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestForgotPasswordTwitter.html scripts/TestForgotPasswordTwitter.rb"/>
+    </exec>
+  </target>
+
+  <!--Run the Scenario Test Add JoinSession -->
+  <target name="TestAddJoinSession" depends="clean">
+    <echo message="Executing TestAddJoinSession"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestAddJoinSession.html scripts/TestAddJoinSession.rb"/>
+    </exec>
+  </target>
+
+
+  <!--Run the Scenario Post Message-->
+  <target name="TestPostMessage" depends="clean">
+    <echo message="Executing TestPostMessage"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestPostMessage.html scripts/TestPostMessage.rb"/>
+    </exec>
+  </target>
+
+  <!--Run the Scenario Repost Message-->
+  <target name="TestRePostFavorite" depends="clean">
+    <echo message="Executing TestRePostFavorite"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestRePostFavorite.html scripts/TestRePostFavorite.rb"/>
+    </exec>
+  </target>
+
+  <!--Run the Scenario Rate Session Message-->
+  <target name="TestRateSession" depends="clean">
+    <echo message="Executing TestRateSession"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestRateSession.html scripts/TestRateSession.rb"/>
+    </exec>
+  </target>
+
+
+  <!--Run the Scenario Flag and Reply-->
+  <target name="TestFlagAndReply" depends="clean">
+    <echo message="Executing TestFlagAndReply"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestFlagAndReply.html scripts/TestFlagAndReply.rb"/>
+    </exec>
+  </target>
+
+  <!--Run the Scenario Attendees and Speaker-->
+  <target name="TestAttendeesAndSpeaker" depends="clean">
+    <echo message="Executing TestAttendeesAndSpeaker"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestAttendeesAndSpeaker.html scripts/TestAttendeesAndSpeaker.rb"/>
+    </exec>
+  </target>
+
+  <!--Run the Scenario more>>information screen-->
+  <target name="TestVerifyInformation" depends="clean">
+    <echo message="Executing TestVerifyInformation"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestVerifyInformation.html scripts/TestVerifyInformation.rb"/>
+    </exec>
+  </target>
+
+
+  <!--Run the Scenario User Activity-->
+  <target name="TestVerifyUserActivity" depends="clean">
+    <echo message="Executing TestVerifyUserActivity"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestVerifyUserActivity.html scripts/TestVerifyUserActivity.rb"/>
+    </exec>
+  </target>
+
+
+  <!--Run the Scenario User Update Profile-->
+  <target name="TestUpdateUserProfile" depends="clean">
+    <echo message="Executing TestUpdateUserProfile"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestUpdateUserProfile.html scripts/TestUpdateUserProfile.rb"/>
+    </exec>
+  </target>
+
+
+  <!--Run the Scenario Remove the Post-->
+  <target name="TestRemovePost" depends="clean">
+    <echo message="Executing TestRemovePost"/>
+    <exec dir="." executable="cmd" >
+      <arg line="/c rspec --format html --out reports/TestRemovePost.html scripts/TestRemovePost.rb"/>
+    </exec>
+  </target>
+
+</project>
+
