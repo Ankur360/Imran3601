@@ -54,7 +54,7 @@ describe "User can rate the session" do
       rateSession= conversion.rateTheSession(url)
       expect(rateSession).to eql(false)
 
-
+	  puts "Test method rate session completed successfully"
       CreateLog.new().Log("login to the application")
     end
   end
